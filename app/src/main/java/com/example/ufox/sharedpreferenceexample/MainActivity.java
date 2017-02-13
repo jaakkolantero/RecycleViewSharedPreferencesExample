@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO 6. Create data item layout my_item.xml
         //TODO 9. Add RecycleView to activity_main.xml layout
 
+        //TODO 10. Setup everything and populate array with dummy data
         //Init and populate ArrayList
         mItemArrayList = new ArrayList<>();
         mItemArrayList.add(new MyItem("John"));
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //TODO 11. Get data from shared preferences
     @Override
     protected void onResume() {
         super.onResume();
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //TODO 12. Save data to shared preferences
     @Override
     protected void onPause() {
         super.onPause();
